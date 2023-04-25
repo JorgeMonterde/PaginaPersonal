@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+h1 {font-size: 3.5em;}
+h2 {font-size: 2.7em;}
+h3 {font-size: 2em;}
+p {font-size: 1.25em;}
+ul {list-style: "- ";}
+
+.highlight {
+    color:rgb(0, 108, 141)
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 0px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 10px #000000;
+    color: white;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color:#000000;
+    color: aqua
+}
+
+
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+}
+header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color:rgb(0, 241, 241);
+    font-size: 1.6em;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight:bold;
+    color:#ffffff;
+}
+header a:hover {
+    background-color:aqua;
+    color:#000000;
+}
+
+
+main a:hover, footer a:hover {
+    background-color: aqua;
+
+}
+
+
+#hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: rgb(0, 0, 0);
+    background-image: url(/images/torreVista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hello h2 p{
+    color: rgb(0, 0, 0);
+}
+
+#bioCV {
+    text-align: center;
+    padding: 200px 12px;
+    background-color: #000000;
+    color: white;
+}
+
+#bioCV .container{
+    padding: 100px 0px;
+}
+
+#bioCV h2{
+    margin-top: 0;
+}
+
+
+
+#work {
+    text-align: center;
+    padding: 200px 12px;
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+}
+#work .container{
+    padding: 100px 0px;
+}
+#work h2{
+    margin-top: 0;
+}
+#work .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 12px;
+    border-radius: 20px;
+}
+#first{
+    background-image: url(/images/proyecto.jpg);
+    color:#ffffff;
+}
+#second{
+    background-image: url(/images/proyectoMadrid.jpg);
+    color:#f3f3f3;
+}
+#third{
+    background-image: url(/images/torre1.jpg);
+    color:#000000;
+}
+
+
+#contact {
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+
+
+
+footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color:white;
+    font-size: 0.75em;
+}
+
+
+
+
+
+@media (min-width: 720px){
+    header .container{
+
+    }
+}
